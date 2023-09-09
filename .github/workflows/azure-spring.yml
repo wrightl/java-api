@@ -2,7 +2,7 @@ name: AzureSpringApps
 on: push
 env:
   ASC_PACKAGE_PATH: ${{ github.workspace }}
-  AZURE_SUBSCRIPTION: Visual Studio Enterprise Subscription – MPN - LMW
+  AZURE_SUBSCRIPTION: 923f2d7b-0728-4c6e-8781-f346d6db7b5e
 
 jobs:
   deploy_to_production:
